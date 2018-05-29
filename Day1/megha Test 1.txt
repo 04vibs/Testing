@@ -1,0 +1,41 @@
+var a; //Question Return type?
+var a=10;
+ a // value of a?
+let arr = [1,2]
+ console.log(arr);//?
+ console.log(typeof (arr));// ??
+arr[2]=20;
+  console.log(arr);//?
+
+arr[4] = 40
+console.log(arr);//??
+arr[3] = "happy"
+console.log(arr);//??
+
+
+console.log(typeof arr[2]);//?
+console.log(typeof arr[3]);//?
+console.log(arr.join('-'));//?
+
+
+//Q. Difference between slice and splice?
+ arr=[10,20,30,40,happy]
+ let a3=arr.splice(2,1);
+ a3//return type?
+ //value of a3
+ //value of arr?
+  let arr4 = ["a", 1, 5, "b", 7, "d"]
+//	return type of arr4// ?
+//	value of arr4.slice(3,5)//?
+//	value of arr4//?
+ 10==10 //return type or value
+ 10=='10'//?
+ 10=='1'//?
+[1,2].toString()//?value
+
+''==0;//return or value
+[]==0;
+10===10;
+[1,2]==[1,2]
+7+'7'+7 //value?
+0==[]//?
