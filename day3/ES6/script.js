@@ -1,10 +1,10 @@
-class Shape{
-    constructor(sides,color){
+class Shape {
+    constructor(sides, color) {
         this.sides = sides
         this.color = color
     }
 
-    protoFun(){
+    protFun() {
         console.log("prototype function")
     }
 
@@ -12,16 +12,17 @@ class Shape{
         console.log("static function")
     }
 
-    get vertices(){
+    get vertices() {
         return this.sides
     }
 }
 
-class Square extends Shape{
-    constructor(color){
-        super(4,color)
+class Square extends Shape {
+    constructor(color) {
+        super(4, color)
     }
 }
 
-let redTriangle = new Shape(3,'red')
+let redTriangle = new Shape(3, 'red')
+
 let blueSquare = new Square('blue')
