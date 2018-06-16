@@ -1,15 +1,27 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <script src="classical_asynch.js"></script>
-    <meta charset="utf-8" />
-    <title></title>
-
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+   
+     <script src="classicalAsynchPromises.js"></script>
 </head>
+
 <body>
 
+    <input style="width: 300px" type="text" id="url">
+    <button id="start">START</button>
+    <script>
+        let url = document.getElementById('url')
+        let btn = document.getElementById('start')
+        btn.onclick = function () {
+            start(url.value)
+        }
+    </script>
+
 </body>
+
 </html>
